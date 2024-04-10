@@ -1,5 +1,7 @@
-.reset {
-  all: unset;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 $white: #ffffff;
@@ -19,7 +21,7 @@ p {
   font-size: 15px;
   font-weight: 400;
   text-align: center;
-  margin: 0;
+  margin: 16px;
   color: $mainColor;
 }
 
@@ -27,21 +29,21 @@ body {
   background-color: $gray;
   font-family: "Outfit", sans-serif;
   font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 
   .card {
-    box-sizing: border-box;
     width: 320px;
     height: 497px;
     background-color: $white;
     border-radius: 20px;
     padding: 16px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    margin: auto;
 
     img {
       width: 288px;
-      height: auto;
       border-radius: 10px;
     }
     #description {
