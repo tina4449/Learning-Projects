@@ -8,7 +8,7 @@ h1 {
   font-size: 22px;
   font-weight: 700;
   text-align: center;
-  margin: 16px;
+  margin: 18px;
   color: hsl(218, 44%, 22%);
 }
 
@@ -24,10 +24,10 @@ body {
   background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
   font-style: normal;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100%;
 }
 body .container {
   width: 320px;
