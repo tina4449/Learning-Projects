@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-h3 {
+h1 {
   font-size: 22px;
   font-weight: 700;
   text-align: center;
@@ -27,9 +27,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
 }
-body .card {
+body .container {
   width: 320px;
   height: 497px;
   background-color: #ffffff;
@@ -37,10 +37,10 @@ body .card {
   padding: 16px;
   margin: auto;
 }
-body .card img {
+body .container img {
   width: 288px;
   border-radius: 10px;
 }
-body .card #description {
+body .container #description {
   width: 288px;
 }/*# sourceMappingURL=style.css.map */
