@@ -9,7 +9,7 @@ $gray: hsl(212, 45, 89);
 $mainColor: hsl(220, 15, 55);
 $secondColor: hsl(218, 44, 22);
 
-h3 {
+h1 {
   font-size: 22px;
   font-weight: 700;
   text-align: center;
@@ -32,9 +32,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
 
-  .card {
+  .container {
     width: 320px;
     height: 497px;
     background-color: $white;
