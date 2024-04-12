@@ -11,18 +11,17 @@ p {
   font-style: normal;
   text-align: left;
   line-height: 1.5;
+  color: hsl(0, 0%, 7%);
 }
 
 h1 {
   font-size: 24px;
   font-weight: 800;
-  color: hsl(47, 88%, 63%);
 }
 
 p.bold {
   font-size: 14px;
   font-weight: 800;
-  color: hsl(0, 0%, 7%);
 }
 
 p.medium {
@@ -33,7 +32,6 @@ p.medium {
 
 p.regular {
   font-weight: 500;
-  color: hsl(0, 0%, 7%);
   font-size: 14px;
 }
 
@@ -77,9 +75,14 @@ body {
   background-color: hsl(47, 88%, 63%);
   margin-bottom: 12px;
 }
-.container .content p .regular .medium,
+.container .content p .regular,
 .container .content h1 {
   margin-bottom: 12px;
+}
+.container .content h1:hover,
+.container .content h1:active {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
 }
 .container .author {
   display: flex;
@@ -98,7 +101,6 @@ body {
 @media screen and (max-width: 375px) {
   h1 {
     font-size: 20px;
-    color: hsl(0, 0%, 7%);
   }
   p.bold .regular {
     font-size: 12px;
