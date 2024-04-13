@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+p {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400 600 700;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+p {
+  font-size: 14px;
+}
+
+p.regular {
+  font-weight: 400;
+}
+
+p.bold {
+  font-weight: 600;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: hsl(0, 0%, 12%);
+  max-width: 383px;
+  padding: 40px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 27px;
+}
+
+img.avatar {
+  width: 90px;
+  border-radius: 50%;
+}
+
+.Title h1 {
+  margin-bottom: 9px;
+}
+.Title p.bold {
+  color: hsl(75, 94%, 57%);
+}
+
+.options {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.options .btn {
+  background-color: hsl(0, 0%, 20%);
+  width: 100%;
+  padding: 14px 12px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+}
+.options .btn:hover,
+.options .btn:active {
+  background-color: hsl(75, 94%, 57%);
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+.options .btn:hover p.bold,
+.options .btn:active p.bold {
+  color: hsl(0, 0%, 8%);
+  transition: color 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 329px;
+    padding: 26px;
+  }
+}/*# sourceMappingURL=style.css.map */
